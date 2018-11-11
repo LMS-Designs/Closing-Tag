@@ -13,7 +13,15 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "cookie-parser": "^1.4.3",
-    "express": "^4.16.3",
+    "cors": "^2.8.5",
+    "create-react-app": "^2.1.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.11",
+    "morgan": "^1.9.1",
     "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "10.7.x",
+    "npm": "6.4.x"
   }
 }
