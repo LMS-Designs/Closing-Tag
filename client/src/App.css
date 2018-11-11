@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -15,7 +16,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: #61dafb;
   text-shadow: 1px 1px 5px black;
 }
@@ -27,4 +27,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#LMStack {
+  width: 250px;
+  height: auto;
+  object-fit: contain;
 }
