@@ -11,7 +11,7 @@ const app = express();
 const Sequelize = require('sequelize');
 const sequelize = new Sequelize('ClosingTag', 'webconnection', '@Closingtagisdabomb101', {
     host: 'closing-tag.cypm94q3l3td.us-east-2.rds.amazonaws.com',
-    dialect: 'mysql'
+    dialect: 'mysql' 
   });
 sequelize.authenticate()
   .then(() => {
